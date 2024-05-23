@@ -21,6 +21,7 @@ body {
     margin: 50px auto;
     padding: 30px;
     border: 1px solid #cccccc;
+  
   }
   
   h1, h2 {
@@ -43,17 +44,26 @@ body {
     margin: 5px;
   }
 
+  .contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    
+  }
+  
   a {
     text-decoration: none;
     background-color: #f4f4f4;
     color:black;
-    margin-right: 40px;
+    margin-bottom: 10px;
     padding: 10px 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-
   }
-
+  .email {
+    margin-right: 40px;
+  }
   a:hover {
     background-color: white;
   }
